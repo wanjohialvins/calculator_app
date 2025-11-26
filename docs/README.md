@@ -1,4 +1,4 @@
- Eragon Calc Project
+ # Eragon Calc Project
 
 A fully functional calculator application built in JavaScript for a hypothetical operating system. This project simulates a standard calculator capable of performing basic operations and keeping track of all calculations made, with history logging and export functionality.
 
