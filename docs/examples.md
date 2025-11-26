@@ -2,7 +2,6 @@
 
 This document demonstrates how to use the Eragon Calc application with examples of basic operations, history usage, and keyboard shortcuts.
 
----
 
 ## 1. Performing Basic Operations
 
@@ -14,29 +13,18 @@ Click buttons or use the keyboard to add numbers.
 Input: 7 + 3 =
 Display: 10
 
-shell
-Copy code
-
 ### Subtraction
 Input: 9 - 4 =
 Display: 5
-
-shell
-Copy code
 
 ### Multiplication
 Input: 6 × 5 =
 Display: 30
 
-shell
-Copy code
-
 ### Division
 Input: 12 ÷ 4 =
 Display: 3
 
-yaml
-Copy code
 
 **Note:** Division by zero will show `Error`.
 
@@ -80,8 +68,6 @@ The history panel will show:
 5 + 3 → 8
 10 ÷ 2 → 5
 
-css
-Copy code
 
 ### Export History
 Click the **Export** button to download the history as a `.csv` file:
@@ -89,13 +75,11 @@ Click the **Export** button to download the history as a `.csv` file:
 5,+,3,8
 10,/,2,5
 
-yaml
-Copy code
 
 ### Clear History
 Click the **Clear History** button to remove all stored calculations.
 
----
+
 
 ## 5. Example Session
 

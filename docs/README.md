@@ -78,11 +78,6 @@ calculator_app/
 ├─ CHANGELOG.md # Version history and updates
 └─ HISTORY.md # Documentation of calculation history handling
 
-yaml
-Copy code
-
----
-
 ## Version Control & Updates
 
 - Keep project under Git for version control.
