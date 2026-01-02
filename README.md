@@ -1,101 +1,55 @@
-Eragon Calc
-Overview
+# 🧮 Eragon Calc (OS Calculator)
 
-The OS Calculator is a JavaScript-based application designed for a hypothetical operating system. It performs basic arithmetic operations, tracks all calculations in a history log, and supports keyboard input for quick calculations.
+A sleek, professional JavaScript-based calculator designed for a high-end operating system experience. Built with a focus on precision, speed, and a captivating user interface.
 
-Features
+![Calculator Banner](./docs/banner.png)
 
-Addition (+), subtraction (−), multiplication (×), and division (÷)
+## 🌟 Features
 
-Real-time calculation display
+- **Advanced Arithmetic**: Full support for addition, subtraction, multiplication, and division.
+- **Real-time Feedback**: Instant results and clear visual indicators.
+- **Persistent History**: Never lose track of your work with a dedicated history panel.
+- **Smart Data Export**: Export your calculation history to CSV for offline records.
+- **Full Keyboard Support**: Maximize efficiency with intuitive keyboard shortcuts.
+- **Responsive HUD Design**: optimized for both desktop and mobile "Glassmorphism" aesthetics.
 
-History panel with all previous calculations
+## 📖 Documentation & Security
 
-Export calculation history as CSV
+- **[USER_MANUAL.md](docs/USER_MANUAL.md)**: Detailed guide on features and usage.
+- **[LICENSE](LICENSE)**: Licensed under the MIT License.
 
-Clear history option
+## 🚀 Getting Started
 
-Keyboard support for all standard operations
+### Installation
 
-Professional, responsive design for desktop and mobile
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/wanjohialvins/calculator_app.git
+   ```
 
-File Structure
-os-calculator/
-│
-├─ index.html          # Main HTML structure
-├─ style.css           # Styles and layout for calculator and history panel
-├─ script.js           # Core calculator logic and history management
-└─ README.md           # Project documentation
+2. **Run Locally**
+   Simply open `index.html` in any modern web browser.
 
-Getting Started
-Prerequisites
+## 📁 Project Structure
 
-Modern web browser (Chrome, Firefox, Edge, Safari)
+```bash
+calculator_app/
+├── docs/                # Extended documentation & assets
+│   └── USER_MANUAL.md   # Step-by-step user guide
+├── index.html           # Core application structure
+├── style.css            # Futuristic UI/UX styling
+├── script.js            # High-precision calculator logic
+└── LICENSE              # MIT License
+```
 
-No additional dependencies required
+## 🛠️ Technology Stack
 
-Instructions
+- **Structure**: HTML5 Semantic elements
+- **Logic**: Vanilla JavaScript (ES6+)
+- **Styling**: Modern CSS3 (CSS Variables, Flexbox, Grid)
+- **Icons**: Lucide Icons / Custom SVGs
 
-Clone or download the repository:
+---
 
-git clone <repository_url>
-
-
-Open index.html in your preferred web browser.
-
-Start using the calculator:
-
-Click buttons or use your keyboard for input.
-
-View history on the right-hand panel.
-
-Clear or export history as needed.
-
-Usage
-Buttons
-
-Numbers: 0–9
-
-Operators: +, −, ×, ÷
-
-Special:
-
-C — Clear
-
-± — Toggle sign
-
-% — Percent
-
-= — Calculate
-
-Keyboard Support
-
-Numbers: 0–9
-
-Decimal point: .
-
-Operators: +, -, *, /
-
-Enter: = or Enter
-
-Escape: Clear
-
-Technical Details
-Calculator Logic
-
-Stores current and previous values, along with the pending operator.
-
-Performs calculations only when a valid operation sequence is entered.
-
-Handles division by zero gracefully with an "Error" display.
-
-History Management
-
-All calculations are stored in an array of objects:
-
-{ operand1, operator, operand2, result }
-
-
-History is displayed in reverse chronological order.
-
-Users can export the history to CSV for offline records.
+**Developed by Alvins Wanjohi**  
+*Turning math into an experience.*
